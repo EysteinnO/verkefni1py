@@ -25,4 +25,4 @@ def pages(pagename):
 def Pictures():
     return "Pictures page"
 #run(host='localhost', port=8080, debug=True)
-run(host='0.0.0.0', port=os.environ.get('PORT'))
+bottle.run(host='0.0.0.0', port=argv[1])
