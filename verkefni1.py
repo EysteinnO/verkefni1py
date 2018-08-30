@@ -24,5 +24,5 @@ def pages(pagename):
 @route('/Pictures')
 def Pictures():
     return "Pictures page"
-run(host='localhost', port=8080, debug=True)
-
+#run(host='localhost', port=8080, debug=True)
+run(host='0.0.0.0', port=os.environ.get('PORT'))
