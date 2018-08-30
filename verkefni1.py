@@ -1,5 +1,6 @@
 import os
 from os import environ as env
+from sys import argv
 from bottle import route, run, error
 
 @error(404)
