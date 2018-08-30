@@ -1,4 +1,6 @@
-import os
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-import os
 from os import environ as env
 from sys import argv
 from bottle import route, run, error
